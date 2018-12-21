@@ -190,4 +190,4 @@ NativeModules.ReactLocalization = {
 0.57
 
 ## React navigation
-2.14.0
+3
