@@ -29,7 +29,7 @@ const MyNavigator = createMaterialBottomTabNavigator({
   activeTintColor: '#f0edf6',
   inactiveTintColor: '#3e2465',
   barStyle: { backgroundColor: '#694fad' },
-  navigationOptions: ({ navigation }) => ({
+  defaultNavigationOptions: ({ navigation }) => ({
     tabBarIcon: ({ focused, tintColor }) => {
       const { routeName } = navigation.state;
       // let iconName;

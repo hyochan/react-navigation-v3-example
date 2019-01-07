@@ -17,22 +17,16 @@ const BottomTabNavigator = createBottomTabNavigator(
     Screen4,
   },
   {
-    navigationOptions: ({ navigation }) => ({
+    defaultNavigationOptions: ({ navigation }) => ({
       tabBarIcon: ({ focused, tintColor }) => {
         const { routeName } = navigation.state;
-        // let iconName;
-        // if (routeName === 'Scree1') {
-        //   iconName = `ios-information-circle${focused ? '' : '-outline'}`;
-        // } else if (routeName === 'Screen2') {
-        //   iconName = `ios-options${focused ? '' : '-outline'}`;
-        // }
 
         // You can return any component that you like here! We usually use an
         // icon component from react-native-vector-icons
         if (!focused) {
           return <Image style={{
-            width: 16,
-            height: 16,
+            width: 24,
+            height: 24,
           }} source={IC_MASK}/>;
         }
         return <Image style={{
@@ -41,12 +35,17 @@ const BottomTabNavigator = createBottomTabNavigator(
         }} source={IC_MASK}/>;
       },
     }),
-    tabBarLabel: {
-    },
     tabBarOptions: {
       activeTintColor: 'tomato',
       inactiveTintColor: 'gray',
-      // showLabel: false,
+      animationEnabled: false,
+      tabBarOptions: {
+        showLabel: false,
+        style: {
+          height: 52,
+          color: 'blue',
+        },
+      },
     },
   }
 );
