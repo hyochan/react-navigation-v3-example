@@ -1,4 +1,7 @@
 ### ANNOUNCEMENT
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/dooboolab/react-navigation-v3-example.svg)](https://greenkeeper.io/)
+
 DO NOT MODIFY OR CHANGE THE CODE BEFORE CONFIRMED BY `DOOBOOLAB`. THIS REPOSITORY IS USED IN `DOOBOO-CLI`.
 
 # React Native JS Boilerplate
