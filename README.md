@@ -1,5 +1,6 @@
-### ANNOUNCEMENT
-DO NOT MODIFY OR CHANGE THE CODE BEFORE CONFIRMED BY `DOOBOOLAB`. THIS REPOSITORY IS USED IN `DOOBOO-CLI`.
+### Archived
+See [React Navigation V5](https://github.com/hyochan/react-navigation-v5-example)
+
 
 # React Native JS Boilerplate
 > Specification
